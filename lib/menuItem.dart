@@ -59,20 +59,23 @@ class MenuItem extends StatelessWidget {
                   ],
                 ),
               ),
-              ShaderMask(
-                shaderCallback: (rect) {
-                  return const LinearGradient(
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter,
-                    colors: [Colors.black, Colors.black, Colors.transparent],
-                  ).createShader(Rect.fromLTRB(0, 0, rect.width, rect.height-20));
-                },
-                blendMode: BlendMode.dstIn,
-                child: Image.asset(
-                  'assets/images/$imageName.jpg',
-                  width: 400,
-                  height: 200,
-                  fit: BoxFit.fitWidth,
+              ClipRRect(
+                borderRadius: BorderRadius.only(topLeft: Radius.circular(25),topRight: Radius.circular(25)),
+                child: ShaderMask(
+                  shaderCallback: (rect) {
+                    return const LinearGradient(
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      colors: [Colors.black, Colors.black, Colors.transparent],
+                    ).createShader(Rect.fromLTRB(0, 0, rect.width, rect.height-20));
+                  },
+                  blendMode: BlendMode.dstIn,
+                  child: Image.asset(
+                    'assets/images/$imageName.jpg',
+                    width: 400,
+                    height: 150,
+                    fit: BoxFit.fitWidth,
+                  ),
                 ),
               ),
               Padding(
