@@ -10,6 +10,11 @@ A simple Flutter app for a restaurant that displays a menu and allows customers 
 
 • View detailed information about the order
 
+## Screens
+![image](https://github.com/EhudMarchi/restaurant-flutter-app/assets/49651991/f4792187-a49d-4fda-8c82-e1d98e5414b5)
+![image](https://github.com/EhudMarchi/restaurant-flutter-app/assets/49651991/8f420f31-4b40-4d36-b5a0-ebdd885e8139)
+
+
 ### Getting Started
 
 To run the application locally, you'll need to have Flutter and Dart installed. Make sure you have the Flutter SDK set up properly by following the [official installation guide](https://flutter.dev/docs/get-started/install).
