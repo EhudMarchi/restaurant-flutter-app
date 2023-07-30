@@ -1,16 +1,31 @@
-# restaurant
-
+# Restaurant Flutter App <img src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" width="40">
 A simple Flutter app for a restaurant that displays a menu and allows customers to place orders.
 
-## Getting Started
+## Features
+• Browse a menu
 
-This project is a starting point for a Flutter application.
+• View detailed information about each dish
 
-A few resources to get you started if this is your first Flutter project:
+• Add items to the order
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+• View detailed information about the order
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Getting Started
+
+To run the application locally, you'll need to have Flutter and Dart installed. Make sure you have the Flutter SDK set up properly by following the [official installation guide](https://flutter.dev/docs/get-started/install).
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/EhudMarchi/restaurant-flutter-app.git
+cd flutter-restaurant-app
+```
+#### Install dependencies:
+```bash
+flutter pub get
+```
+#### Run the app:
+```bash
+flutter run
+```
+If you prefer using an emulator/simulator, make sure it's running before executing the flutter run command.
