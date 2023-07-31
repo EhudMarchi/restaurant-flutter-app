@@ -3,9 +3,14 @@ import 'package:restaurant/menuItems.dart';
 import 'package:restaurant/restaurantOrder.dart';
 import 'package:restaurant/services/orderServices.dart';
 
+enum ItemType {
+  main,
+  dessert,
+  drink
+}
 class MenuItem extends StatelessWidget {
     MenuItem({
-    super.key, required this.name, required this.details, required this.price, required this.imageName, required this.updateOrder, required this.order,
+    super.key, required this.name, required this.details, required this.price, required this.imageName, required this.updateOrder, required this.order, required this.itemType,
   });
   final String name;
   final String details;
@@ -13,6 +18,7 @@ class MenuItem extends StatelessWidget {
   final String imageName;
   final Function(RestaurantOrder) updateOrder;
   final RestaurantOrder order;
+  final ItemType itemType;
   @override
   Widget build(BuildContext context) {
     RestaurantOrder currentOrder;
