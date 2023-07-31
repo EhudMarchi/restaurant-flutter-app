@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:restaurant/orderSummaryPage.dart';
 import 'package:restaurant/restaurantOrder.dart';
 
 import 'menuItem.dart';
-import 'menuItems.dart';
 
 class MenuPage extends StatefulWidget {
   const MenuPage({super.key});
@@ -123,10 +123,6 @@ class _MenuPageState extends State<MenuPage> {
                   child: Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(4, 0, 0, 0),
                     child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
                       onTap: () async {
                         changeDisplayedItems(ItemType.main);
                       },
@@ -145,10 +141,7 @@ class _MenuPageState extends State<MenuPage> {
                             children: [
                               Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 12),
-                                child: Icon(
-                                  Icons.stacked_line_chart_rounded,
-                                  size: 36,
-                                ),
+                                child: FaIcon(FontAwesomeIcons.pizzaSlice,size: 36,),
                               ),
                               Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(0, 4, 0, 0),
@@ -165,10 +158,6 @@ class _MenuPageState extends State<MenuPage> {
                   child: Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(4, 0, 0, 0),
                     child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
                       onTap: () async {
                         changeDisplayedItems(ItemType.dessert);
                       },
@@ -187,10 +176,7 @@ class _MenuPageState extends State<MenuPage> {
                             children: [
                               Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 12),
-                                child: Icon(
-                                  Icons.stacked_line_chart_rounded,
-                                  size: 36,
-                                ),
+                                child: FaIcon(FontAwesomeIcons.iceCream,size: 36,)
                               ),
                               Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(0, 4, 0, 0),
@@ -207,10 +193,6 @@ class _MenuPageState extends State<MenuPage> {
                   child: Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(4, 0, 0, 0),
                     child: InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
                       onTap: () async {
                         changeDisplayedItems(ItemType.drink);
                       },
@@ -229,10 +211,7 @@ class _MenuPageState extends State<MenuPage> {
                             children: [
                               Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 12),
-                                child: Icon(
-                                  Icons.stacked_line_chart_rounded,
-                                  size: 36,
-                                ),
+                                child: FaIcon(FontAwesomeIcons.martiniGlassCitrus,size: 36,)
                               ),
                               Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(0, 4, 0, 0),
