@@ -11,8 +11,9 @@ A simple Flutter app for a restaurant that displays a menu and allows customers 
 • View detailed information about the order
 
 ## Screens
-![image](https://github.com/EhudMarchi/restaurant-flutter-app/assets/49651991/f4792187-a49d-4fda-8c82-e1d98e5414b5)
-![image](https://github.com/EhudMarchi/restaurant-flutter-app/assets/49651991/8f420f31-4b40-4d36-b5a0-ebdd885e8139)
+![menu screen](https://github.com/EhudMarchi/restaurant-flutter-app/assets/49651991/fba3a1a0-1f2c-4487-bc2e-2041493fda5f)
+![order summary screen](https://github.com/EhudMarchi/restaurant-flutter-app/assets/49651991/2e65be94-c8fc-4545-bea7-e572f796be8f)
+
 
 
 ### Getting Started
